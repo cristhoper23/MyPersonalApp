@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyPersonalApp</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="signIn">Ingresar</string>
+
+    <string name="titleHome">Inicio</string>
+    <string name="titleData">Mis Datos</string>
+    <string name="titleConf">Configuración</string>
+    <string name="titleLogOut">Cerrar sesión</string>
+
+    <string name="hintName">Nombre</string>
+    <string-array name="styles">
+        <item>Estilo</item>
+        <item>Dark Style</item>
+        <item>Light Style</item>
+        <item>Live Style</item>
+    </string-array>
+
+    <string-array name="Languages">
+        <item>Idioma</item>
+        <item>Español</item>
+        <item>Inglés</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
