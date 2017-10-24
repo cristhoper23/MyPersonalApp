@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">Mi App Personal</string>
+    <string name="app_name">MyPersonalApp</string>
     <string name="user">Usuario</string>
     <string name="pass">Contraseña</string>
     <string name="signIn">Ingresar</string>
@@ -14,17 +14,4 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="myPreferenceTitle">Selecionar Idioma</string>
     <string name="default_language">Español (recomendado)</string>
-
-    <string-array name="listArray">
-        <item>Headings</item>
-        <item>Headings and Details</item>
-        <item>All Data</item>
-    </string-array>
-
-    <string-array name="listValues">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
 </resources>
