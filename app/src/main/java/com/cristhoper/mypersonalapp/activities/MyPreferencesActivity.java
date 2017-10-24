@@ -46,7 +46,7 @@ public class MyPreferencesActivity extends PreferenceActivity implements SharedP
         super.onPause();
     }
 
-public static class MyPreferenceFragment extends PreferenceFragment
+    public static class MyPreferenceFragment extends PreferenceFragment
     {
         @Override
         public void onCreate(final Bundle savedInstanceState)

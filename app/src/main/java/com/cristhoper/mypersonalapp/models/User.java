@@ -1,12 +1,16 @@
 package com.cristhoper.mypersonalapp.models;
 
+
+import com.orm.dsl.Table;
+
 /**
  * Created by Cris on 12/10/2017.
  */
 
+@Table
 public class User {
 
-    private Integer id;
+    private Long id;
     private String username;
     private String password;
     private String fullname;
@@ -14,18 +18,17 @@ public class User {
     public User() {
     }
 
-    public User(Integer id, String username, String password, String fullname) {
-        this.id = id;
+    public User(String username, String password, String fullname) {
         this.username = username;
         this.password = password;
         this.fullname = fullname;
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

@@ -14,6 +14,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="myPreferenceTitle">Selecionar Idioma</string>
     <string name="default_language">Español (recomendado)</string>
+    <string name="textCuenta">¿No tiene una cuenta?</string>
+    <string name="textRegistrar">Cree una</string>
+    <string name="register_fullname">Nombre completo</string>
+    <string name="register_username">Usuario</string>
+    <string name="register_password">Contraseña</string>
+    <string name="register_save">Registrar</string>
 
     <string-array name="listArray">
         <item>Headings</item>

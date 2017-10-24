@@ -87,6 +87,10 @@ public class MainActivity extends AppCompatActivity {
         goDashboard();
     }
 
+    public void callSignUp(View view){
+        startActivity(new Intent(MainActivity.this, RegisterActivity.class));
+    }
+
     private void goDashboard(){
         startActivity(new Intent(this, DashboardActivity.class));
         finish();
